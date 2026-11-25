@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(135deg, #ffc0cb, #ffe6f0);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans Ms', cursive;
+}
+
+.clock-container{
+    background: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    color: #ff69b4;
+    margin-bottom: 15px;
+}
+
+#time{
+    font-size: 50px;
+    color: #333;
+}
+
+#date{
+    margin-top: 10px;
+    color: #666;
+    font-size: 18px;
+}
+
+#greet{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ff6fae;
+    font-weight: 600;
+}
